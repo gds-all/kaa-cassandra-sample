@@ -1,0 +1,32 @@
+{
+    "type":"record",
+    "name":"SensorData",
+    "namespace":"org.kaaproject.kaa.sample",
+    "fields":[
+        {
+            "name":"sensorId",
+            "type":"string"
+        },
+        {
+            "name":"sensorType",
+            "type":{
+                "type":"enum",
+                "name":"SensorType",
+                "namespace":"org.kaaproject.kaa.sample",
+                "symbols":[
+                    "TEMPERATURE",
+                    "HUMIDITY",
+                    "GAS"
+                ]
+            }
+        },
+        {
+            "name":"location",
+            "type":"string"
+        },
+        {
+            "name":"value",
+            "type":"float"
+        }
+    ]
+}
