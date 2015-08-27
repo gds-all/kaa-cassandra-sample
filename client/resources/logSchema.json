@@ -8,20 +8,11 @@
             "type":"string"
         },
         {
-            "name":"sensorType",
-            "type":{
-                "type":"enum",
-                "name":"SensorType",
-                "namespace":"org.kaaproject.kaa.sample",
-                "symbols":[
-                    "TEMPERATURE",
-                    "HUMIDITY",
-                    "GAS"
-                ]
-            }
+            "name":"model",
+            "type":"string"
         },
         {
-            "name":"location",
+            "name":"region",
             "type":"string"
         },
         {
