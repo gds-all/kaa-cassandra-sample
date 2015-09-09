@@ -22,8 +22,8 @@ git clone https://github.com/kaaproject/kaa-cassandra-sample.git
 5. [Raspberry Pi] Generate the Kaa C SDK ant put it to the [kaa-cassandra-sample/client/c/libs/kaa](https://github.com/kaaproject/kaa-cassandra-sample/tree/master/client/c/libs/kaa) directory.
 6. Connect wires using following schema.
   - Connect DHT11 pin 1 (left) to Raspberry PI pin 7 (GPIO 4)
-  - Connect DHT11 pin 2 (middle) to Raspberry PI pin 1 (GPIO 4)
-  - Connect DHT11 pin 3 (right) to Raspberry PI pin 14 (GPIO 4)
+  - Connect DHT11 pin 2 (middle) to Raspberry PI pin 1
+  - Connect DHT11 pin 3 (right) to Raspberry PI pin 14
   
   ![DHT11](http://www.geeker.co.nz/images/thumbnails/280/280/detailed/1/Keyes_-_Temperature_and_humidity_sensor.jpg)
 7. [Raspberry Pi] Build the client demo based on the Kaa C SDK.
