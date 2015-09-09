@@ -1,6 +1,5 @@
 Kaa application based on Raspberry Pi and DHT11 sensor
 ============================
-
 This sample RaspberryPI application collects temperature measurements from DHT11 sensor and uploads it to Cassandra using Kaa.
 
 Kaa is an open-source middleware platform for building, managing, and integrating connected products with the Internet of Everything.
