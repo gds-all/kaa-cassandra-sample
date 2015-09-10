@@ -20,7 +20,7 @@ Installation instruction
    ```
    git clone https://github.com/kaaproject/kaa-cassandra-sample.git
    ```
-5. [Raspberry Pi] Generate the Kaa C SDK ant put it to the [kaa-cassandra-sample/client/c/libs/kaa](https://github.com/kaaproject/kaa-cassandra-sample/tree/master/client/c/libs/kaa) directory.
+5. [Raspberry Pi] Generate the Kaa C SDK based on [this](https://github.com/kaaproject/kaa-cassandra-sample/blob/master/client/resources/logSchema.json) log schema and put it to the [kaa-cassandra-sample/client/c/libs/kaa](https://github.com/kaaproject/kaa-cassandra-sample/tree/master/client/c/libs/kaa) directory.
 
 6. Connect wires using following schema.
   - Connect DHT11 pin 1 (left) to Raspberry PI pin 7 (GPIO 4)
